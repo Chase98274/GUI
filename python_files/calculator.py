@@ -1,4 +1,5 @@
 def add(value_1, value_2):
+    """this function adds two numbers together"""
     sum = value_1 + value_2
     return sum
 
