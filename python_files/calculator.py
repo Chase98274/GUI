@@ -16,10 +16,10 @@ def division(value_1, value_2):
     quotient = value_1 / value_2
     return quotient
 
-a = float(input("Enter value one: "))
-b = float(input("Enter value two: "))
+from tkinter import *
 
-print(add(a, b))
-print(subtraction(a, b))
-print(multiplication(a, b))
-print(division(a, b))
+window = Tk()
+
+window.title("Chase's Calculator")
+
+window.mainloop()
